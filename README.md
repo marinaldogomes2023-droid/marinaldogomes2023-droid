@@ -2,67 +2,59 @@
 
 # Marinaldo Gomes
 
-### Desenvolvedor Full Stack | Sistemas SaaS, ERP e aplicações multiplataforma
+### Desenvolvedor Full Stack | Backend, SaaS e aplicações multiplataforma
 
-Construo produtos completos, da arquitetura e API até as interfaces web, desktop e mobile.
+Transformo regras de negócio em produtos web, desktop e mobile, com atenção a arquitetura, testes e operação.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Electron](https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+[Projetos](#projetos-em-destaque) · [Competências](#competências) · [O-que-posso-apresentar](#o-que-posso-apresentar-em-uma-entrevista)
 
 </div>
 
-## Sobre mim
+## Perfil
 
-Desenvolvo sistemas orientados a problemas reais de operação. Meu trabalho reúne modelagem de negócio, APIs, bancos de dados, interfaces e processos de entrega. Tenho experiência com aplicações SaaS multiempresa, sistemas de gestão, funcionamento offline e integração entre web, desktop e mobile.
+Desenvolvo sistemas para operações que dependem de agenda, estoque, financeiro, vendas e integração entre canais. Trabalho com APIs, interfaces, bancos de dados e processos de entrega.
 
-Valorizo arquitetura clara, documentação técnica, testes e evolução contínua do produto.
+Meus projetos principais incluem SaaS multiempresa, sincronização offline, autenticação, controle de acesso, automação de testes e aplicações distribuídas em web, desktop e mobile.
 
 ## Projetos em destaque
 
-### Velstrix — gestão completa para barbearias
+| Projeto | Problema e solução | Evidências |
+|---|---|---|
+| **Velstrix** | Gestão para barbearias com agenda, clientes, equipe, financeiro e vendas. Integra web, desktop e mobile com operação offline. | [Estudo de caso e arquitetura](case-studies/velstrix.md) |
+| **Nerovant** | E-commerce de moda com catálogo, busca, conta, favoritos e sacola sincronizada. Usa Next.js, TypeScript e Supabase com RLS. | [Estudo de caso](case-studies/nerovant.md) · [Demonstração](https://nerovant.vercel.app) |
+| **ConstruStock** | ERP SaaS para rotinas comerciais, estoque e financeiro, com FastAPI, Next.js e separação dos dados por empresa. | [Estudo de caso e arquitetura](case-studies/construstock.md) |
 
-Plataforma SaaS multi-tenant criada para centralizar a operação de barbearias.
+## Engenharia aplicada
 
-- Agenda, clientes, equipe, financeiro e venda de produtos
-- Aplicações web, desktop e mobile integradas
-- Operação offline-first para manter o atendimento mesmo sem conexão
-- Estrutura multiempresa com separação dos dados de cada negócio
-- Projeto em evolução contínua, com mais de 170 commits e documentação técnica
-
-**Tecnologias e conceitos:** JavaScript, Electron, aplicações móveis, APIs, SaaS multi-tenant e arquitetura offline-first.
-
-### ConstruStock — ERP SaaS para empresas
-
-Sistema de gestão empresarial criado para organizar rotinas comerciais, financeiras e administrativas.
-
-- Backend em FastAPI e frontend em Next.js
-- Autenticação JWT e isolamento de dados por empresa
-- Dashboard, financeiro, relatórios e estrutura de cobrança
-- SQLite no ambiente local e preparação para PostgreSQL com Alembic
-- Docker, testes automatizados, observabilidade e fundamentos de LGPD
-
-**Tecnologias:** Python, FastAPI, Next.js, TypeScript, SQLite, PostgreSQL, Alembic, JWT e Docker.
+- Arquitetura SaaS multiempresa e controle do contexto de dados.
+- Estratégias offline-first para manter a operação durante falhas de conexão.
+- APIs, autenticação, autorização e regras de negócio.
+- PostgreSQL, SQLite, Supabase, migrações e Row Level Security.
+- Testes unitários, de componente, integração e concorrência.
+- CI para backend, desktop, mobile e contratos de deploy.
+- Docker, auditoria de dependências e validação de artefatos de produção.
 
 ## Competências
 
-| Área | Experiência |
+| Área | Tecnologias e práticas |
 |---|---|
-| Backend | Python, FastAPI, APIs REST, autenticação e regras de negócio |
-| Frontend | Next.js, JavaScript, TypeScript e interfaces responsivas |
-| Desktop e mobile | Electron, React Native e sincronização offline |
-| Dados | SQLite, PostgreSQL, modelagem e migrações |
-| Engenharia | Docker, Git, testes, documentação e organização arquitetural |
+| Backend | Python, FastAPI, Node.js, APIs REST, JWT, autenticação e regras de negócio |
+| Frontend | Next.js, React, JavaScript, TypeScript, Tailwind CSS e interfaces responsivas |
+| Desktop e mobile | Electron, React Native, Expo e sincronização offline |
+| Dados | PostgreSQL, SQLite, Supabase, modelagem, migrações e RLS |
+| Qualidade e entrega | GitHub Actions, testes, Docker, documentação, observabilidade e segurança de dependências |
 
-## Como apresento os projetos
+## O que posso apresentar em uma entrevista
 
-Os sistemas principais permanecem privados porque contêm regras de negócio e implementações proprietárias. Em processos seletivos, posso apresentar a arquitetura, as decisões técnicas, as interfaces e o funcionamento das soluções sem expor informações sensíveis.
+- arquitetura e decisões técnicas dos projetos;
+- demonstração dos fluxos principais;
+- estratégia multiempresa e isolamento de dados;
+- sincronização offline e tratamento de conflitos;
+- testes, pipelines de CI e proteção dos builds;
+- evolução de funcionalidades a partir de problemas reais.
 
-## Contato
+Os repositórios dos produtos permanecem privados porque contêm regras de negócio. Os estudos de caso públicos mostram o escopo, a arquitetura e as práticas de engenharia sem expor dados de clientes ou implementações proprietárias.
 
-Estou aberto a oportunidades em desenvolvimento full stack, backend Python e construção de produtos SaaS. Você pode entrar em contato pelos dados informados no meu currículo.
+## Objetivo profissional
+
+Busco oportunidades em desenvolvimento full stack, backend Python e construção de produtos SaaS. Tenho interesse em equipes que valorizam autonomia, revisão técnica e contato com o problema de negócio.
