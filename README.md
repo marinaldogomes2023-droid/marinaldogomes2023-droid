@@ -6,7 +6,7 @@
 
 Transformo regras de negócio em produtos web, desktop e mobile, com atenção a arquitetura, testes e operação.
 
-[Projetos](#projetos-em-destaque) · [Competências](#competências) · [O-que-posso-apresentar](#o-que-posso-apresentar-em-uma-entrevista)
+[Projetos](#projetos-em-destaque) · [Competências](#competências) · [Entrevista](#o-que-posso-apresentar-em-uma-entrevista)
 
 </div>
 
